@@ -1,7 +1,7 @@
 # IBM API Connect v5 Sample Policies
 
 This folder contains a variety of sample policies that can be used with
-IBM API Connect v4.
+IBM API Connect v5.
 ## Usage
 **Instructions on how to reuse a sample policy**
 
