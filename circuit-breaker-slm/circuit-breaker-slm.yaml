@@ -1,0 +1,35 @@
+policy: 1.0.0
+
+info:
+  title: Circuit Breaker Using SLM
+  name: circuit-breaker-slm
+  version: 1.0.0
+  description: Concurrency based circuit breaker policy (non-clustered)
+  contact:
+    name: IBM DataPower Samples
+    url: https://github.com/ibm-datapower
+    email: steve-product-manager@ibm.com
+
+attach:
+  - rest
+  - soap
+
+gateways:
+  - datapower-gateway
+
+properties:
+  $schema: "http://json-schema.org/draft-04/schema#"
+  type: object
+  properties:
+    concurrency:
+      label: "Maximum Concurrency"
+      description: "Maximum allowed concurrency per partition key"
+      type: integer
+    key:
+      label: "Partition Key"
+      description: "Partition the counts using a unique string identifier"
+      type: string
+      default: default
+  required:
+    - concurrency
+    - key
