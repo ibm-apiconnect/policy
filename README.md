@@ -25,7 +25,7 @@ You can download any of the policies provided and reuse them to make your own by
 
  9. Verify all of the artifacts from “alice-policy” policy are there.
 
- 10. Make chages to the processing rules to implement your policy requirements. See: http://www-01.ibm.com/support/knowledgecenter/SSWHYP_4.0.0/com.ibm.apimgmt.policy.doc/capim_custpolicies_overview.html
+ 10. Make changes to the processing rules to implement your policy requirements. See: http://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.policy.doc/capim_custpolicies_overview.html
 
  11. Export your “alice-policy-main” rule action, and give it the name “alice-policy” which after download will be “alice-policy.zip”.
 
