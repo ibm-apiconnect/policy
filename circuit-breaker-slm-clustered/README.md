@@ -18,6 +18,7 @@ x-ibm-configuration:
   assembly:
     execute:
       - circuit-breaker-slm-clustered:
+          version: 1.0.0      
           key: default
           concurrency: 1
       - invoke:
